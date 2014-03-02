@@ -4,3 +4,10 @@ craig:
   email: "craig@gcntraining.com"
   encrypted_password: "passwords"
   profile_name: "craigmb"
+
+jim:
+  first_name: "Jim"
+  last_name: "Hodkis"
+  email: "jim@gcntraining.com"
+  encrypted_password: "passwordss"
+  profile_name: "jimhodkis"

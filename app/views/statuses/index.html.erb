@@ -8,7 +8,7 @@
 
 
 <div class="status">
-  <h2><%= status.user.full_name %> </h2>
+  <h2><%= link_to status.user.full_name, status.user.profile_name %> </h2>
   <p><%= status.content %></p>
   <div class="meta">
     <%= link_to time_ago_in_words(status.created_at) + " ago", status %>
